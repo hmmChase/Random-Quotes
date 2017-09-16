@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Random Quotes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body onload="randomColor()">
+
+    <div class="outer">
+        <div class="inner">
+            <div class="content">
+
+
+                <i class="fa fa-quote-left quotation" id="jsQuotation1" aria-hidden="true"></i>
+
+                <p class="quote" id="jsQuote"></p>
+
+                <i class="fa fa-quote-right quotation" id="jsQuotation2" aria-hidden="true"></i>
+
+
+                <span class="attribution" id="jsAttribution"></span>
+
+
+                <div class="buttons">
+
+                    <a class="mediaBtnBox button" id="jsTwitter" title="Tweet this quote" target="_blank">
+                        <i class="fa fa-twitter mediabtn" aria-hidden="true"></i>
+                    </a>
+
+                    <a class="mediaBtnBox button" id="jsTumblr" title="Post this quote on tumblr" target="_blank">
+                        <i class="fa fa-tumblr mediabtn" aria-hidden="true"></i>
+                    </a>
+
+                    <button class="newQuoteBtn button" id="jsQuoteBtn">New quote</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
